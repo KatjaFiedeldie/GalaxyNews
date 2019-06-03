@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">GalaxyNews</string>
+    <string name="no_galaxies">No Galaxy News at this time, please check again later!</string>
+    <string name="no_internet_connection">No internet connection found.</string>
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">GalaxyNews Settings</string>
+
+    //order by date
+
+    <string name="date_list_label">Choose month to start from</string>
+    <string name="date_list_key" translatable="false">order_by_date</string>
+    <string name="date_list_default_value" translatable="false">@string/date_list_january_default_value</string>
+
+    <string name="date_list_january_label">January</string>
+    <string name="date_list_january_default_value" translatable="false">2018-01-01</string>
+
+    <string name="date_list_february_label">February</string>
+    <string name="date_list_february_default_value" translatable="false">2018-02-01</string>
+
+    <string name="date_list_march_label">March</string>
+    <string name="date_list_march_default_value" translatable="false">2018-03-01</string>
+
+    <string name="date_list_april_label">April</string>
+    <string name="date_list_april_default_value" translatable="false">2018-04-01</string>
+
+    <string name="date_list_may_label">May</string>
+    <string name="date_list_may_default_value" translatable="false">2018-05-01</string>
+
+    //order by oldest or newest
+    <string name="order_list_label">Order by</string>
+    <string name="order_list_key" translatable="false">order_by</string>
+    <string name="order_list_default_value" translatable="false">@string/order_list_newest_default_value</string>
+
+    <string name="order_list_newest_label">Newest</string>
+    <string name="order_list_newest_default_value" translatable="false">newest</string>
+
+    <string name="order_list_oldest_label">Oldest</string>
+    <string name="order_list_oldest_default_value" translatable="false">oldest</string>
+
+
+
+
+</resources>

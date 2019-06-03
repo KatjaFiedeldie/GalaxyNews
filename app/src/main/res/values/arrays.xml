@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    // Array for the labels of the date list
+    <string-array name="date_labels_order_by">
+        <item>@string/date_list_january_label</item>
+        <item>@string/date_list_february_label</item>
+        <item>@string/date_list_march_label</item>
+        <item>@string/date_list_april_label</item>
+        <item>@string/date_list_may_label</item>
+    </string-array>
+
+    // Array for the values of the date list
+    <string-array name="date_values_order_by">
+        <item>@string/date_list_january_default_value</item>
+        <item>@string/date_list_february_default_value</item>
+        <item>@string/date_list_march_default_value</item>
+        <item>@string/date_list_april_default_value</item>
+        <item>@string/date_list_may_default_value</item>
+    </string-array>
+
+    // Array for the labels of the order by list
+    <string-array name="order_labels">
+        <item>@string/order_list_newest_label</item>
+        <item>@string/order_list_oldest_label</item>
+    </string-array>
+
+    // Array for the values of the order by list
+    <string-array name="order_values">
+        <item>@string/order_list_newest_default_value</item>
+        <item>@string/order_list_oldest_default_value</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <ListPreference
+        android:title="@string/date_list_label"
+        android:entries="@array/date_labels_order_by"
+        android:entryValues="@array/date_values_order_by"
+        android:defaultValue="@string/date_list_default_value"
+        android:key="@string/date_list_key" />
+
+    <ListPreference
+        android:title="@string/order_list_label"
+        android:entries="@array/order_labels"
+        android:entryValues="@array/order_values"
+        android:defaultValue="@string/order_list_default_value"
+        android:key="@string/order_list_key" />
+
+
+</PreferenceScreen>
